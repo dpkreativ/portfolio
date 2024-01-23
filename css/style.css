@@ -1,0 +1,15 @@
+/* CSS Reset */
+@import url('./reset.css');
+
+/* CSS Font - Camphor
+  font-family: 'Camphor', sans-serif;
+*/
+@import url('./font.css');
+
+:root {
+  --default-font: 'Camphor', sans-serif;
+}
+
+* {
+  font-family: var(--default-font);
+}
